@@ -1,5 +1,6 @@
-Welcome to Glitch
+Welcome to Glitch and Bootstrap
 =================
+## a Workshop for [Huskie Hacks at NIU](https://www.niu.edu/niusteam/programs/huskie-hack.shtml)
 
 Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
 
@@ -7,6 +8,10 @@ Click `Show` in the header to see your app live. Updates to your code will insta
 
 Find out more [about Glitch](https://glitch.com/about).
 
+**Bootstrap** is the leading Web front-end framework for Responsive Web Design.
+**Responsive Web Design (RWD)** ensures that a Web page adjusts its appearance, layout, sizing of elements based on the device viewing it
+
+Find out more [about Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/).
 
 Your Project
 ------------
