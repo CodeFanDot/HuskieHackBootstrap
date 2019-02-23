@@ -58,15 +58,22 @@
         <h1>Hi there!</h1>
         <h2>Welcome to HUSKIEHack!</h2>
         <p>
-          This is important information for the top of the page.
-          We would like this part of the page to stand out!
+          This is a Bootstrap jumbotron!
+          Bootstrap's CSS applies styles to make this area stand out
         </p>
       </div>
     </header>
     <p>
-      I'm your cool new webpage. Made with <a href="https://glitch.com">Glitch</a>!
+      I'm your cool new webpage. Made with <a href="https://glitch.com">Glitch</a>! And <a href="https://getbootstrap.com/">Bootstrap!</a>
     </p>
-    
+    <p>
+      
+    </p>
+    <p>
+      Bootstrap includes styles "out of the box" for communicating meaning. For example, each button
+      will have the class "btn" but can have a second class such as "btn-primary", "btn-success", "btn-danger"
+      to give a visual clue as to the button's nature:
+    </p>
     <p>
       <button type="button" class="btn btn-primary">Primary</button>      
       <button type="button" class="btn btn-secondary">Secondary</button>
@@ -78,22 +85,37 @@
       <button type="button" class="btn btn-dark">Dark</button>
       <button type="button" class="btn btn-link">Link</button>
     </p> 
-   <div class="card" style="width: 18rem;">
+    <p>
+      With Bootstrap's Cards you can organize your content, including images into neat containers; there are many options for styling, placement of titles, etc.
+      Each card is in a div with class="card", and in this example all the cards are enclosed in a div with class="card-deck" to create a grid of cards that adjusts automatically
+    </p>
+    <div class="card-deck">
+   <div class="card">
       <img src="https://cdn.glitch.com/1e9fce45-69e6-4b61-b8e4-f4647dfd6442%2FBryceCanyon.jpg?1550800673291" class="card-img-top" alt="Bryce Canyon">
       <div class="card-body">
         <h5 class="card-title">Bryce Canyon</h5>
         <p class="card-text">Bryce Canyon National Park in Utah is stunningly beautiful!  Great hiking but bring plenty of water!</p>
         <a href="https://www.nps.gov/brca/index.htm" class="btn btn-primary" target="_blank">Park's Web Page</a>
       </div>
-  </div> 
-     <div class="card" style="width: 18rem;">
+  </div>  
+     <div class="card">
       <img src="https://cdn.glitch.com/1e9fce45-69e6-4b61-b8e4-f4647dfd6442%2FZion.jpg?1550800952420" class="card-img-top" alt="Zion National Park">
       <div class="card-body">
         <h5 class="card-title">Zion National Park</h5>
         <p class="card-text">Zion National Park in Utah is just as amazing!  Be sure to look for the stars and planets at night in the beautiful clear skies</p>
         <a href="https://www.nps.gov/zion/index.htm" class="btn btn-primary" target="_blank">Park's Web Page</a>
       </div>
-  </div>  
+  </div> 
+    
+     <div class="card">
+      <img src="https://cdn.glitch.com/1e9fce45-69e6-4b61-b8e4-f4647dfd6442%2FDenali.JPG?1550939969100" class="card-img-top" alt="Zion National Park">
+      <div class="card-body">
+        <h5 class="card-title">Denali</h5>
+        <p class="card-text">When you go to Denali National Park you are fortunate if the mountain appears from out of the clouds!</p>
+        <a href="https://www.nps.gov/dena/index.htm" class="btn btn-primary" target="_blank">Denali Park's Web Page</a>
+      </div>
+    </div>  
+ </div>
   <p>This example demonstrates a 25%/75% split on small devices, 
       a 50%/50% split on medium devices, 
       and a 33%/66% split on large and xlarge devices. On extra small devices,
